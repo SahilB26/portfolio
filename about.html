@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me | Sahil Badade</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
+      color: #f0f0f0;
+      padding: 2rem;
+      background-attachment: fixed;
+      max-width: 1000px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #00fff7;
+      margin-top: 2rem;
+      text-shadow: 0 0 10px rgba(0, 255, 247, 0.3);
+    }
+    .hobbies-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .hobby-card {
+      background: #1e1e1e;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      transition: transform 0.2s;
+    }
+    .hobby-card:hover {
+      transform: translateY(-4px);
+    }
+    .hobby-emoji {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    a {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.6rem 1.2rem;
+      background: #00fff7;
+      color: #121212;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>About Me</h1>
+  <p>I’m a motivated and forward-thinking MSc Data Science student based in Mumbai with a strong interest in technology and analytics. I enjoy working with data to discover actionable insights and solve real-world challenges across different domains like business and sports.</p>
+  <p>As an aspiring data professional, I strive to continuously improve my skills and contribute to projects that make a meaningful impact. I’ve worked on academic and personal projects that apply theoretical knowledge to practical problems, which has helped me grow technically and creatively.</p>
+  <p>In addition to Python and BI tools like Power BI and Tableau, I’ve gained practical experience with SQL and Excel for data manipulation, querying, and exploratory analysis. These tools complement my data workflow and help me uncover patterns and drive decisions efficiently.</p>
+  <p>Outside of analytics, I’m a sportsperson and artist, balancing logic and creativity in both my work and life.</p>
+
+  <h2>Hobbies</h2>
+  <div class="hobbies-grid">
+    <div class="hobby-card">
+      <div class="hobby-emoji">⚽</div>
+      <div>Sports</div>
+    </div>
+    <div class="hobby-card">
+      <div class="hobby-emoji">✏️</div>
+      <div>Sketching</div>
+    </div>
+    <div class="hobby-card">
+      <div class="hobby-emoji">🎨</div>
+      <div>Designing</div>
+    </div>
+    <div class="hobby-card">
+      <div class="hobby-emoji">🏃‍♂️</div>
+      <div>Athlete</div>
+    </div>
+    <div class="hobby-card">
+      <div class="hobby-emoji">🌍</div>
+      <div>Travelling</div>
+    </div>
+  </div>
+
+  <a href="index.html">&larr; Back to Home</a>
+</body>
+</html>
